@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-H5AutoTest">
+              <span class="suite-name border-passed">H5AutoTest</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-H5AutoTest">
+                    <span>D:\code\GIT\Smoke\H5_SmokeTest\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-H5AutoTest">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-H5AutoTest">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-H5AutoTest">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-H5AutoTest">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-H5AutoTest">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-H5AutoTest">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-H5AutoTest" class="hide-methods passed suite-H5AutoTest"> (hide)</a> <!-- hide-methods passed suite-H5AutoTest -->
+                      <a href="#" panel-name="suite-H5AutoTest" class="show-methods passed suite-H5AutoTest"> (show)</a> <!-- show-methods passed suite-H5AutoTest -->
+                    </span>
+                    <div class="method-list-content passed suite-H5AutoTest">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-H5AutoTest" title="com.blemall.smokeTest.testcases.TestCase_01_Login" hash-for-method="loginSuccess({password=wobugaosuni1, url=http://m.bl.com/h5-web/product/scanBuy.html?productid=, username=1851604...)">loginSuccess({password=wobugaosuni1, url=http://m.bl.com/h5-web/product/scanBuy.html?productid=, username=1851604...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-H5AutoTest -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-H5AutoTest" class="panel H5AutoTest">
+          <div class="suite-H5AutoTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.blemall.smokeTest.testcases.TestCase_01_Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginSuccess({password=wobugaosuni1, url=http://m.bl.com/h5-web/product/scanBuy.html?productid=, username=1851604...)">
+                  </a> <!-- loginSuccess({password=wobugaosuni1, url=http://m.bl.com/h5-web/product/scanBuy.html?productid=, username=1851604...) -->
+                  <span class="method-name">loginSuccess</span>
+                  <span class="parameters">({password=wobugaosuni1, url=http://m.bl.com/h5-web/product/scanBuy.html?productid=, username=18516042869})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-H5AutoTest-class-passed -->
+        </div> <!-- panel H5AutoTest -->
+        <div panel-name="test-xml-H5AutoTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\code\GIT\Smoke\H5_SmokeTest\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;H5AutoTest&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;TestMethods&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.blemall.smokeTest.testcases.TestCase_01_Login&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;loginSuccess&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.blemall.smokeTest.testcases.TestCase_01_Login --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestMethods --&gt;
+&lt;/suite&gt; &lt;!-- H5AutoTest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-H5AutoTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for H5AutoTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TestMethods (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-H5AutoTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for H5AutoTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-H5AutoTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for H5AutoTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_H5AutoTest');
+function tableData_H5AutoTest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginSuccess')
+data.setCell(0, 2, 'com.blemall.smokeTest.testcases.TestCase_01_Login')
+data.setCell(0, 3, 8139);
+window.suiteTableData['H5AutoTest']= { tableData: data, tableDiv: 'times-div-H5AutoTest'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <div id="times-div-H5AutoTest">
+              </div> <!-- times-div-H5AutoTest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-H5AutoTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for H5AutoTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginSuccess({password=wobugaosuni1, url=http://m.bl.com/h5-web/product/scanBuy.html?productid=, username=1851604...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2016-03-09 13:46:10 : open URL=http://m.bl.com/h5-web/page/view_Index.html</span>
+                <span class="reporter-method-output">2016-03-09 13:46:10 : 你要找的元素出现了</span>
+                <span class="reporter-method-output">2016-03-09 13:46:10 : open successfully</span>
+                <span class="reporter-method-output">2016-03-09 13:46:10 : click login button</span>
+                <span class="reporter-method-output">2016-03-09 13:46:16 : 登录成功</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-H5AutoTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.blemall.smokeTest.testcases.TestCase_01_Login</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">wrongPasswordAlert</span>
+                <br/>
+                <span class="ignored-method-name">usernameNotExist</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-H5AutoTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.blemall.smokeTest.testcases.TestCase_01_Login</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginSuccess({password=wobugaosuni1, url=http://m.bl.com/h5-web/product/scanBuy.html?productid=, username=1851604...)</span>
+                <span class="method-start">41791 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">49930 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
