@@ -23,7 +23,6 @@
      <!--run testng ant task-->
      <taskdef resource="testngtasks" classpath="${lib.dir}/testng-6.8.5.jar"/>        
 
-     
      <target name="run_tests" depends="compile">    
          <testng classpathref="compile.path"  failureproperty="test.failed">         
              <!--xml test suite file -->
@@ -33,11 +32,5 @@
              </xmlfileset>                        
          </testng>              
          <fail message="ERROR: test failed!!!!!" if="test.failed"/>
-     </target>     
- 
-
-    
-	
-	
-
+     </target>
 </project>
