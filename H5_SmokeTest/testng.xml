@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- allow-return-values -->
+<suite name="H5AutoTest" parallel="false" >
+	<test verbose="2" name="TestMethods" preserve-order="true">
+		<classes>
+	
+		   <class name="com.blemall.smokeTest.testcases.TestCase_01_Login">
+				<methods preserve-order="true">
+				 <include name="loginSuccess"/>
+             
+				</methods>
+			</class>
+			</classes>
+	</test>
+</suite>
