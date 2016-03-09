@@ -1,0 +1,12 @@
+FastHomeEntrance:
+  type:xpath
+  value:".//*[@id='main']/div/div[2]/a[1]/img"
+Address:
+  type:xpath
+  value:".//*[@id='addressList']/li[3]"
+ShopName:
+  type:xpath
+  value:"html/body/div[1]/div/div[1]"
+ShopHour:
+  type:xpath
+  value:"html/body/div[1]/div/div[1]"

@@ -2,31 +2,31 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[2016-03-09 13:46:10 : open URL=http://m.bl.com/h5-web/page/view_Index.html]]>
+      <![CDATA[2016-03-09 16:20:50 : open URL=http://m.bl.com/h5-web/page/view_Index.html]]>
     </line>
     <line>
-      <![CDATA[2016-03-09 13:46:10 : 你要找的元素出现了]]>
+      <![CDATA[2016-03-09 16:20:50 : 你要找的元素出现了]]>
     </line>
     <line>
-      <![CDATA[2016-03-09 13:46:10 : open successfully]]>
+      <![CDATA[2016-03-09 16:20:50 : open successfully]]>
     </line>
     <line>
-      <![CDATA[2016-03-09 13:46:10 : click login button]]>
+      <![CDATA[2016-03-09 16:20:50 : click login button]]>
     </line>
     <line>
-      <![CDATA[2016-03-09 13:46:16 : 登录成功]]>
+      <![CDATA[2016-03-09 16:20:56 : 登录成功]]>
     </line>
   </reporter-output>
-  <suite name="H5AutoTest" duration-ms="50275" started-at="2016-03-09T05:45:26Z" finished-at="2016-03-09T05:46:17Z">
+  <suite name="H5AutoTest" duration-ms="43741" started-at="2016-03-09T08:20:13Z" finished-at="2016-03-09T08:20:56Z">
     <groups>
     </groups>
-    <test name="TestMethods" duration-ms="50275" started-at="2016-03-09T05:45:26Z" finished-at="2016-03-09T05:46:17Z">
+    <test name="TestMethods" duration-ms="43741" started-at="2016-03-09T08:20:13Z" finished-at="2016-03-09T08:20:56Z">
       <class name="com.blemall.smokeTest.testcases.TestCase_01_Login">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blemall.smokeTest.testcases.TestCase_01_Login@d70c109]" name="setUp" is-config="true" duration-ms="41791" started-at="2016-03-09T13:45:26Z" finished-at="2016-03-09T13:46:08Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blemall.smokeTest.testcases.TestCase_01_Login@d70c109]" name="setUp" is-config="true" duration-ms="34785" started-at="2016-03-09T16:20:13Z" finished-at="2016-03-09T16:20:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginSuccess(java.util.Map)[pri:0, instance:com.blemall.smokeTest.testcases.TestCase_01_Login@d70c109]" name="loginSuccess" duration-ms="8139" started-at="2016-03-09T13:46:08Z" data-provider="providerMethod" finished-at="2016-03-09T13:46:16Z">
+        <test-method status="PASS" signature="loginSuccess(java.util.Map)[pri:0, instance:com.blemall.smokeTest.testcases.TestCase_01_Login@d70c109]" name="loginSuccess" duration-ms="8571" started-at="2016-03-09T16:20:48Z" data-provider="providerMethod" finished-at="2016-03-09T16:20:56Z">
           <params>
             <param index="0">
               <value>
@@ -36,23 +36,23 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[2016-03-09 13:46:10 : open URL=http://m.bl.com/h5-web/page/view_Index.html]]>
+              <![CDATA[2016-03-09 16:20:50 : open URL=http://m.bl.com/h5-web/page/view_Index.html]]>
             </line>
             <line>
-              <![CDATA[2016-03-09 13:46:10 : 你要找的元素出现了]]>
+              <![CDATA[2016-03-09 16:20:50 : 你要找的元素出现了]]>
             </line>
             <line>
-              <![CDATA[2016-03-09 13:46:10 : open successfully]]>
+              <![CDATA[2016-03-09 16:20:50 : open successfully]]>
             </line>
             <line>
-              <![CDATA[2016-03-09 13:46:10 : click login button]]>
+              <![CDATA[2016-03-09 16:20:50 : click login button]]>
             </line>
             <line>
-              <![CDATA[2016-03-09 13:46:16 : 登录成功]]>
+              <![CDATA[2016-03-09 16:20:56 : 登录成功]]>
             </line>
           </reporter-output>
         </test-method> <!-- loginSuccess -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blemall.smokeTest.testcases.TestCase_01_Login@d70c109]" name="tearDown" is-config="true" duration-ms="168" started-at="2016-03-09T13:46:16Z" finished-at="2016-03-09T13:46:17Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blemall.smokeTest.testcases.TestCase_01_Login@d70c109]" name="tearDown" is-config="true" duration-ms="227" started-at="2016-03-09T16:20:56Z" finished-at="2016-03-09T16:20:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
